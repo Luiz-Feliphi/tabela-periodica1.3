@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: burlywood;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        tr {
+            display: flex;
+            width: auto;
+        }
+
+        table {
+            max-width: 175%;
+            max-height: 175%;
+            padding: 1fr;
+            margin: auto;
+            display: flex;
+        }
+
+        .hhe {
+            justify-content: space-between;
+        }
+
+        td{
+            font-family: sans-serif;
+            font-size: larger;
+            border: 5px black solid;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            transition: all 0.1s ease;
+        }
+        td:hover{
+            transform: scale(1.2);
+            cursor: default;
+        }
+        th{
+            margin-left: auto;
+        }
+
+
+        .A{
+            background-color: #E9B4D9;
+        }
+        .NM{
+            background-color: #a2e661;
+        }
+        .GN{
+            background-color: #64a9e1;
+        }
+        .S{
+            background-color: #4bcabd;
+        }
+        .OM{
+            background-color: #9ec6d3;
+        }
+        .MT{
+            background-color: #F9A9AF;
+        }
+        .MAT{
+            background-color: #e7f349;
+        }
+        .MA{
+            background-color: #f4d250;
+        }
+        .L{
+            background-color: #8dd9e2;
+        }
+        .H{
+            background-color: #a1dff5;
+        }
+    </style>
+    <table>
+        <tr>
+            <td></td>
+        <tr class="hhe">
+            <td class="NM">H</td>
+            <td class="GN">He</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="MA">Li</td>
+            <td class="MAT">Be</td>
+            <th>
+                <td class="S">B</td>
+                <td class="NM">C</td>
+                <td class="NM">N</td>
+                <td class="NM">O</td>
+                <td class="H">F</td>
+                <td class="GN">Ne</td>
+            </th>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="MA">Mg</td>
+            <td class="MAT">Na</td>
+            <th>
+                <td class="OM">Ai</td>
+                <td class="S">Si</td>
+                <td class="NM">P</td>
+                <td class="NM">S</td>
+                <td class="H">Cl</td>
+                <td class="GN">Ar</td>
+            </th>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="MA">K</td>
+            <td class="MAT">Ca</td>
+            <td class="MT">Sc</td>
+            <td class="MT">Ti</td>
+            <td class="MT">V</td>
+            <td class="MT">Cr</td>
+            <td class="MT">Mn</td>
+            <td class="MT">Fe</td>
+            <td class="MT">Co</td>
+            <td class="MT">Ni</td>
+            <td class="MT">Cu</td>
+            <td class="MT">Zn</td>
+            <td class="OM">Ga</td>
+            <td class="S">Ge</td>
+            <td class="S">As</td>
+            <td class="NM">Se</td>
+            <td class="H">Br</td>
+            <td class="GN">Kr</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="MA">Rb</td>
+            <td class="MAT">Sr</td>
+            <td class="MT">Y</td>
+            <td class="MT">Zr</td>
+            <td class="MT">Nb</td>
+            <td class="MT">Mo</td>
+            <td class="MT">Tc</td>
+            <td class="MT">Ru</td>
+            <td class="MT">Rh</td>
+            <td class="MT">Pd</td>
+            <td class="MT">Ag</td>
+            <td class="MT">Cd</td>
+            <td class="OM">In</td>
+            <td class="OM">Sn</td>
+            <td class="S">Sb</td>
+            <td class="S">Te</td>
+            <td class="H">I</td>
+            <td class="GN">Xe</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="MA">Cs</td>
+            <td class="MAT">Ba</td>
+        <th>
+            <td class="MT">Hf</td>
+            <td class="MT">Ta</td>
+            <td class="MT">W</td>
+            <td class="MT">Re</td>
+            <td class="MT">Os</td>
+            <td class="MT">Ir</td>
+            <td class="MT">Pt</td>
+            <td class="MT">Au</td>
+            <td class="MT">Hg</td>
+            <td class="OM">Tl</td>
+            <td class="OM">Pb</td>
+            <td class="OM">Bi</td>
+            <td class="S">Po</td>
+            <td class="H">At</td>
+            <td class="GN">Rn</td>
+        </th>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="MA">Fr</td>
+            <td class="MAT">Ra</td>
+            <th>
+                <td class="MT">Rf</td>
+                <td class="MT">Db</td>
+                <td class="MT">Sg</td>
+                <td class="MT">Bh</td>
+                <td class="MT">Hs</td>
+                <td class="MT">Mt</td>
+                <td class="MT">Ds</td>
+                <td class="MT">Rg</td>
+                <td class="MT">Cn</td>
+                <td class="OM">Nh</td>
+                <td class="OM">Fl</td>
+                <td class="OM">Mc</td>
+                <td class="OM">Lv</td>
+                <td class="H">Ts</td>
+                <td class="GN">Og</td>
+            </th>
+        </tr>
+    </table>
+
+
+        <tr style="justify-content: flex-end; margin-top: 3%;">
+            <td class="L">La</td>
+            <td class="L">Ce</td>
+            <td class="L">Pr</td>
+            <td class="L">Nd</td>
+            <td class="L">Pm</td>
+            <td class="L">Sm</td>
+            <td class="L">Eu</td>
+            <td class="L">Gd</td>
+            <td class="L">Tb</td>
+            <td class="L">Dy</td>
+            <td class="L">Ho</td>
+            <td class="L">Er</td>
+            <td class="L">Tm</td>
+            <td class="L">Yb</td>
+            <td class="L">Lu</td>
+        </tr>
+        <tr style="justify-content: flex-end;">
+            <td class="A">Ac</td>
+            <td class="A">Th</td>
+            <td class="A">Pa</td>
+            <td class="A">U</td>
+            <td class="A">Np</td>
+            <td class="A">Pu</td>
+            <td class="A">Am</td>
+            <td class="A">Cm</td>
+            <td class="A">Bk</td>
+            <td class="A">Cf</td>
+            <td class="A">Es</td>
+            <td class="A">Fm</td>
+            <td class="A">Md</td>
+            <td class="A">No</td>
+            <td class="A">Lr</td>
+    </table>
+</body>
+</html>
+
+</html>
